@@ -20,6 +20,9 @@
 	2. 标识***4K***为4K
 	3. 无标识则为***标清***
 
+## 生成适用于 Perfect Player 播放列表
+使用[国内 EPG 数据网站][epg]的工具，生成适用于 Perfect Player 的播放列表[`iptv-perfectplayer.m3u`](iptv-perfectplayer.m3u)。将播放列表导入软件，并设置 EPG 地址：`http://epg.51zmt.top:8000/e.xml.xz`即可方便使用。
+
 ## 参考资料
 * [北京电信 IPTV 播放列表@OpenGG][OpenGG-bj-telecom-iptv]
 * [北京联通 iptv 列表@sdhzdmzzl](https://gist.github.com/sdhzdmzzl/93cf74947770066743fff7c7f4fc5820)
@@ -31,8 +34,10 @@
 * [IPTV 直播源抓包教程，新手小白向](https://www.znds.com/tv-1137126-1-1.html)
 * [IPTV 中继原理](https://github.com/wuwentao/bj-unicom-iptv/blob/master/iptv.md)
 * [组播 IP 地址到底是谁的 IP？](https://www.zhihu.com/question/27233903)
-
+* [国内及港澳台节目表 EPG，perfect player 及 kodi 直接载入](https://www.right.com.cn/forum/thread-396149-1-1.html)
+* [提供 EPG 的频道列表，实时更新][epg]
 
 [OpenGG-bj-telecom-iptv]: https://github.com/OpenGG/bj-telecom-iptv
 [wuwentao-bj-unicom-iptv]: https://github.com/wuwentao/bj-unicom-iptv
 [iptv_channel_scanner_windows]: https://github.com/sdhzdmzzl/iptv_channel_scanner_windows
+[epg]: http://epg.51zmt.top:8000/
