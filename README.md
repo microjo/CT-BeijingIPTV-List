@@ -4,9 +4,9 @@
 参照 [北京电信 IPTV 播放列表][OpenGG-bj-telecom-iptv]中的地址，使用 [sdhzdmzzl@github](https://github.com/sdhzdmzzl) 的[扫描工具][iptv_channel_scanner_windows]生成，有2个不同地址段扫描成功，结果分别是[`IPTV-Raw1.m3u`](IPTV-Raw1.m3u)和[`IPTV-Raw2.m3u`](IPTV-Raw2.m3u)。
 
 ## 剔除重复的频道数
-**合计** | **181**
+**合计** | **184**
 -----|-----
-高清 | 68
+高清 | 71
 4K | 4
 标清 | 109
 
